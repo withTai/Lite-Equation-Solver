@@ -3,7 +3,7 @@
 Enter equations in text form in the console, supporting single-variable polynomial equations and multi-variable linear equations. It supports `+`, `-`, `*`, `/`, `^`  operations, and can perform high-precision solutions. It implements the function of an equation solver, simplifying the cumbersome manual calculation process.
 
 ## Pipeline
-![](./asserts/pipeline.png)
+![](./assets/pipeline.png)
  
 1. The equation text is retrieved and analyzed by a lexical analyzer to construct a ***`binary tree`***, which enables the analysis and processing of the text expression. 
 2. Subsequently, the type and solution method of the equation are determined based on the text expression.
